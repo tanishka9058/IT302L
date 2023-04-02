@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>FeedBack Form</title>
+		 <link href="D:\Nikita\css\style1.css" rel="stylesheet"/>
+	</head>
+	<body >
+		<form>
+			<table border=0 width='100%' height='100%' bgcolor='black' style='color:white'>
+				<tr>
+				<th colspan=5 style='color:white'><h1>FeedBack Form</h1></th>
+				</tr>
+				
+				<tr>
+				<td><label for='myname'>Name</label></td>
+				<td colspan=4><input type='text' id='myname' name='myname'></td>
+				</tr>
+				
+				<tr>
+			
+				<td><label for='mymail'>Email</label></td>
+				<td colspan=4><input type='email' id='mymail' name='mymail'></td>
+				</tr>
+				<tr>
+				<td><label>Please rate our product</label></td>
+				<td>Excelent:<input type='radio' name='expect' value='exc'></td><td>Good:<input type='radio' name='expect' value='go'></td><td>Average:<input type='radio' name='expect' value='av'></td>
+				<td>Poor:<input type='radio' name='expect' value='Po'></td>
+				</tr>
+				<tr>
+				<td><label>Things You like..</label></td>
+				<td>Design:<input type='checkbox' name='like' value='des'></td><td>Ease of use:<input type='checkbox' name='like' value='eas'></td><td>Image:<input type='checkbox' name='like' value='img'></td>
+				<td>Links:<input type='checkbox' name='like' value='link'></td>
+				</tr>
+				<tr>
+				<td colspan=5><label>How did you hear about our company?</label></td>
+				</tr>
+				<tr>
+				<td> </td>
+				<td colspan=5><select name='about'>
+					<option value='socmed'>Social Media</option>
+					<option value='Adv'>Advertisisng</option>
+					<option value='serEng'>Search Engine</option>
+					<option value='Ref'>Refered</option>
+				</select></td>
+				</tr>
+				
+				<tr>
+				
+				<td><label for='cmnt'>Comment</label></td>
+				<td colspan=4><textarea id='cmnt' placeholder='Any comment'></textarea></td>
+				</tr>
+				
+				<tr>
+				<td colspan=4 align=left><input type='submit' value="SUBMIT"></td>
+				<td><input type='reset' value="RESET"></td>
+				</tr>
+				
+			</table>
+		</form>
+	</body>
+</html>

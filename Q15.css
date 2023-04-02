@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right bottom, rgba(74,244,24,.7) 60%, rgba(244,25,25,.7)),url("images/21.jpg");
+    }
+p {
+    color:blue;
+    font-size:15px;
+    line-height:2;
+    }
+h1 {
+    color:red;
+    font-size:30px;
+    font-weight:bolder;
+    }
+h2 {
+    color:purple;
+    font-size:20px;
+    }
+
+#first{
+color:black;
+font-style:italic;
+font-weight:bold;
+}
+
+#second{
+color:purple;
+font-style:normal;
+font-weight:bolder;
+}
